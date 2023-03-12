@@ -1,0 +1,43 @@
+html<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h4>Address</h4>
+<ul>
+    <li>1234 Drive, chicago Il 60017</li>
+</ul>
+<h4>Telephone Number</h4>
+<ul>
+    <li>(914)2572457</li>
+</ul>
+<h4>Email</h4>
+<ul>
+    <li>python@gmail.com</li>
+</ul>
+<!-----creating a form, action means what to do when the submit button is hit -------->
+<form action="mailto:tebid.python@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourname" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="youremail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourmessage" rows="10" cols="30"></textarea><br>
+    <input type="submit">
+</form>
+<!-----different type attributes you can play around with -------->
+<!--<form>-->
+<!--    <input type="text"><br>-->
+<!--    <input type="submit"><br>-->
+<!--    <input type="file"><br>-->
+<!--    <input type="date"><br>-->
+<!--    <input type="radio"><br>-->
+<!--    <input type="range">-->
+<!--</form>-->
+</body>
+</html>
